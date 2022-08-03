@@ -72,14 +72,27 @@
             />
           </div>
 
-          <div class="form-info postalCode">
-            <label for="PostalCode">Postal code</label>
-            <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
-            <input
-              type="number"
-              name="postalcode"
-              id="postalcode"
-              />
+          <div>
+            <div class="form-info country">
+              <label for="country">Country</label>
+              <span class="icon"><i class="fa-solid fa-earth-asia"></i></span>
+              <select name="country" id="country">
+                <option value="country" disabled selected>Choose your Country</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="china">China</option>
+                <option value="india">India</option>
+              </select>
+            </div>
+  
+            <div class="form-info postalCode">
+              <label for="PostalCode">Postal code</label>
+              <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+              <input
+                type="number"
+                name="postalcode"
+                id="postalcode"
+                />
+            </div>
           </div>
         </form>
       </div>
