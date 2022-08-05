@@ -35,6 +35,13 @@ form p {
   position: relative;
 }
 
+.icon {
+  position: absolute;
+  top: 30px;
+  left:5px;
+  color: #828282;
+}
+
 footer {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
