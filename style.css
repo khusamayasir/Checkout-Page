@@ -7,3 +7,25 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+.username-github-link, .devchallengelink {
+  color: #333;
+}
+
+.username-link:hover {
+  color: black;
+}
+
+.devchallenges-link:hover {
+  color: #f7542e;
+}
