@@ -42,6 +42,15 @@ form p {
   color: #828282;
 }
 
+input {
+  width: 400px;
+  max-width: 100%;
+  border-color: #828282;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px 5px;
+}
+
 footer {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
