@@ -58,6 +58,28 @@ input {
   padding: 15px 5px;
 }
 
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.country {
+  margin-right: 20px;
+}
+
+.postalCode input {
+  width: 180px;
+}
+
+.country select {
+  width: 180px;
+  max-width: 100%;
+  text-align: center;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding: 15px 5px;
+}
+
 footer {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
