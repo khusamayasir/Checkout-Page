@@ -203,3 +203,15 @@ footer {
 .devchallenges-link:hover {
   color: #f7542e;
 }
+
+@media only screen and (max-width: 900px) {
+  .user-info{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items: center;
+  }
+
+  .container{
+    margin:40px 0;
+  }
+}
