@@ -119,6 +119,27 @@ input {
   float: left;
 }
 
+strike {
+  font-size: 12px;
+  color: #000;
+  margin-left: 15px;
+}
+
+.item img {
+  max-width: 15%;
+  border-radius: 15px;
+}
+
+.number {
+  width: 165px;
+  border: 2px solid #828282;
+  border-radius: 15px;
+  text-align: center;
+  color:#000;
+  margin-top: 50px;
+  padding: 8px 5px;
+}
+
 footer {
   font-size: 14px;
   line-height: 17px;
