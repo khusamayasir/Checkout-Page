@@ -80,6 +80,27 @@ input {
   padding: 15px 5px;
 }
 
+.checkbox {
+  margin: 20px 0;
+}
+
+.btn-primary {
+  background-color: #f2994a;
+  border-radius: 15px;
+  font-size: 16px;
+  float: right;
+  color: #fff;
+  padding: 15px 35px;
+}
+
+input[type="checkbox"] {
+  max-width: 100%;
+  width:20px;
+  text-align: left;
+  border-radius: 15px;
+  padding: 0;
+}
+
 .container {
   background-color: #f2f2f2;
   width: 400px;
@@ -156,9 +177,10 @@ strike {
   background-color: #e0e0e0;
   border: 2px solid grey;
   color:#828282;
-  padding:5px;
+  padding: 5px;
   margin-left: 50px;
 }
+
 .minus-symbol:hover {
   cursor: pointer;
 }
