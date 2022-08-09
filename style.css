@@ -140,6 +140,29 @@ strike {
   padding: 8px 5px;
 }
 
+.plus-symbol {
+  background-color: #e0e0e0;
+  border: 2px solid grey;
+  color: #828282;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.plus-symbol:hover {
+  cursor: pointer;
+}
+
+.minus-symbol {
+  background-color: #e0e0e0;
+  border: 2px solid grey;
+  color:#828282;
+  padding:5px;
+  margin-left: 50px;
+}
+.minus-symbol:hover {
+  cursor: pointer;
+}
+
 footer {
   font-size: 14px;
   line-height: 17px;
