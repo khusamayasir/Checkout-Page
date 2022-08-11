@@ -19,7 +19,7 @@
 
           <div class="form-info">
             <label for="email">E-mail</label>
-            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <span class="material-symbols-outlined icon-left">mail</span>
             <input
               type="email"
               id="email"
@@ -30,7 +30,7 @@
 
           <div class="form-info">
             <label for="PhoneNumber">Phone</label>
-            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+            <span class="material-symbols-outlined icon-left">call</span>
             <input
               type="num"
               id="num"
@@ -42,7 +42,8 @@
           <p>Shipping Address</p>
           <div class="form-info">
             <label for="Name">Name</label>
-            <span class="icon"><i class="fa-solid fa-user"></i></span>
+            <span class="material-symbols-outlined icon-left">account_circle</span>
+          </div>
             <input
               type="text"
               id="user_name"
@@ -53,7 +54,7 @@
 
           <div class="form-info">
             <label for="Address">Address</label>
-            <span class="icon"><i class="fa-solid fa-house"></i></span>
+            <span class="material-symbols-outlined icon-left">home</span>
             <input
               type="text"
               name="address"
@@ -64,7 +65,7 @@
 
           <div class="form-info">
             <label for="City">City</label>
-            <span class="icon"><i class="fa-solid fa-city"></i></span>
+            <span class="material-symbols-outlined icon-left">apartment</span>
             <input
               type="text"
               name="city"
@@ -76,7 +77,8 @@
           <div class="inline">
             <div class="form-info country">
               <label for="country">Country</label>
-              <span class="icon"><i class="fa-solid fa-earth-asia"></i></span>
+              <span class="material-symbols-outlined icon-left">public</span>
+              <span class="material-symbols-outlined icon-right">expand_more</span>
               <select name="country" id="country">
                 <option value="country" disabled selected>Choose your Country</option>
                 <option value="pakistan">Pakistan</option>
@@ -87,7 +89,7 @@
   
             <div class="form-info postalCode">
               <label for="PostalCode">Postal code</label>
-              <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+              <span class="material-symbols-outlined icon-left">markunread_mailbox</span>
               <input
                 type="number"
                 name="postalcode"
@@ -117,7 +119,9 @@
               $54.99 <span> <strike>$94.99</strike> </span>
             </p>
             <h5 class="quantity">
-              <span class="plus-symbol">+</span> 1 <span class="minus-symbol">-</span>
+              <span class="material-symbols-outlined" id="p1-sub">remove</span>
+              <span class="p1-quantity">1</span>
+              <span class="material-symbols-outlined" id="p1-add">add</span>
             </h5>
           </div>
         </div>
@@ -130,7 +134,9 @@
               $74.99 <span> <strike>$124.99</strike> </span>
             </p>
             <h5 class="quantity">
-              <span class="plus-symbol">+</span> 1 <span class="minus-symbol">-</span>
+              <span class="material-symbols-outlined" id="p2-sub">remove</span>
+              <span class="p2-quantity">1</span>
+              <span class="material-symbols-outlined" id="p2-add">add</span>
             </h5>
           </div>
         </div>
