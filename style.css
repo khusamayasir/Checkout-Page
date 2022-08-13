@@ -15,7 +15,7 @@ header {
   margin: 50px auto;
 }
 
-.main {
+.main-sec {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -209,7 +209,7 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
-  .main {
+  .main-sec {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
