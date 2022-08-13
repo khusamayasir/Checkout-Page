@@ -135,12 +135,12 @@ input[type="checkbox"] {
 
 .shipping-price h5, .total-price h5 {
   display: inline;
-  font-size:18px;
+  font-size: 18px;
   float: left;
 }
 
 .item-info p{
-  font-size:18px;
+  font-size: 18px;
   color: #f2994a;
 }
 
