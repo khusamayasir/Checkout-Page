@@ -10,7 +10,6 @@
 
 header {
   width: 80%;
-  color: #4E5150;
   font-size: 36px;
   margin: 50px auto;
 }
@@ -19,7 +18,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80px;
+  width: 80%;
   margin: 20px auto;
 }
 
@@ -94,7 +93,7 @@ input {
 
 input[type="checkbox"] {
   max-width: 100%;
-  width:20px;
+  width: 20px;
   text-align: left;
   border-radius: 15px;
   padding: 0;
