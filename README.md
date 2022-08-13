@@ -36,7 +36,10 @@
 
 ## Overview
 
+Desktop View:
 ![screenshot](https://github.com/khusamayasir/Checkout-Page/blob/main/preview/desktop-preview.png?raw=true)
+
+Mobile View:
 
 ![screenshot](https://github.com/khusamayasir/Checkout-Page/blob/main/preview/mobile-preview.png?raw=true)
 
